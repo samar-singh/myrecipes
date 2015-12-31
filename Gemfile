@@ -17,6 +17,7 @@ gem 'bootstrap-will_paginate','0.0.10'
 group :development, :test do
 gem 'sqlite3'
 gem 'pry'
+gem 'bcrypt','3.1.7'
 end
 group :production do
 gem 'pg'

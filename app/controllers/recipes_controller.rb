@@ -15,7 +15,7 @@ class RecipesController < ApplicationController
  
  def create
   @recipe = Recipe.new(recipe_params)
-  @recipe.chef = Chef.find(2)
+#  @recipe.chef = Chef.find(2)
   
   if @recipe.save
    #do something
